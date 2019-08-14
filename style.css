@@ -1,5 +1,5 @@
  /* general */
- 
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +14,7 @@ ul {
     list-style: none;
 }
 /* Nav */
+ 
  .sidenav {
      text-align: right;
      box-sizing: border-box;
@@ -53,90 +54,142 @@ ul {
      background-size: contain;
  }
 
-form{
-
-	margin: auto;
-	text-align: center;	
-	width: 300px;
-}
-
- input {
-
-     width: 320px;
-     height: 24px;
-     padding-left: 8px;
-     padding-right: 6px;
+ .logo {
+     width: 118px;
+     height: 35px;
+     background: url("./images/logo.png");
+     margin: 0 auto;
+     display: block;
+     background-position: 0 0;
  }
 
- button {
-     background-color: #0077c5;
+ .title {
+     text-align: center;
+     left: 500px !important;
+ }
+
+ .title ul {
+     height: 23px;
+     margin-bottom: 15px;
+     display: block;
+     text-align: center;
+     position: relative;
+ }
+
+ .title ul li {
+     left: 500px;
+     display: inline-block;
+     margin-left: 15px;
+     font-size: 22px;
+     color: #4c4c4c;
+ }
+
+ /* form */
+
+ form {
+     text-align: center;
+     background-color: #fff;
+     border: 1px solid #c7c7c7;
+     margin: auto;
+     padding: 30px;
      box-sizing: border-box;
-     border-color: #0077c5;
-     color: white;
-     width: 100%;
-     height: 44px;
-     margin-top: 30px;
-     margin-bottom: 30px;
+     width: 380px;
  }
 
-
- .nav .fa-lock {
-
-     height: 1em;
-     width: 1em !important;
-     margin-right: 4px;
-
-
+ form h2 {
+     color: #4C4C4C;
+     line-height: 1.1;
+     font-size: 24px;
  }
 
- .fa-lock {
-
-     height: 1em;
-     width: 3em;
-     margin-right: 2px;
-     margin-top: 2px;
+ form p {
+     color: #4C4C4C;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 1.2;
  }
 
- .nav {
-
-     text-align: right;
-     box-sizing: border-box;
-     font-size: 12px;
+ form p a {
+     margin-top: -10px;
  }
 
- .nav p {
-
-     margin-right: 120px;
-     margin-bottom: 10px;
-     text-align: right;
- }
-
- .nav button {
-
-     background-color: #0077c5;
-     color: white;
-     float: right;
-     border: 1px solid #4c4c4c;
-     border-radius: 4px;
-     padding: 0 20px;
-     height: 34px;
-     margin-top: -50px;
-     width: 110px;
- }
-
- .label {
+ label {
+     font-weight: 400;
+     color: #404040;
+     font-size: 14px;
+     line-height: 25px;
+     padding-bottom: 6px;
+     display: block;
      text-align: left;
  }
 
- a {
-     text-decoration: none;
+ input {
+     border: 1px solid #C1C5C8;
+     width: 320px;
+     height: 34px;
+     min-width: 160px;
+     padding-left: 8px;
+     padding-right: 6px;
+     border-radius: 3px;
+     line-height: 1.3em;
  }
 
- .reCAPTCHA {
-
-     margin-top: 20px;
+ form button {
+     background: #0077C5;
+     border: #0077C5;
+     box-sizing: border-box;
+     border-radius: 4px;
+     width: 100%;
+     height: 44px;
+     color: #fff;
+     min-width: 100px;
+     display: inline-block;
+     padding: 6px 12px;
      text-align: center;
-     font-size: 10px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-size: 14px;
+     cursor: pointer;
+ }
 
+ form .fa-lock {
+     height: 1em;
+     width: 8em;
+     margin-top: 2px;
+     margin-right: 4px;
+     vertical-align: text-top;
+     display: inline-block;
+ }
+
+ .captcha {
+     background-color: #ECEEF1;
+     margin: 32px -30px -30px;
+     padding: 16px;
+     text-align: center;
 
  }
+
+ .captcha p {
+     font-size: 10px;
+ }
+
+ .agreement p {
+     font-size: 12px;
+     font-style: italic;
+ }
+
+ footer {
+     text-align: center;
+     font-size: 12px;
+     color: #404040;
+ }
+
+ footer ul li {
+     display: inline-block;
+ }
+
+ footer a {
+     margin-left: 10px;
+ }
+
+ 
