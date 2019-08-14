@@ -1,57 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mint</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title> Form</title>
+	<script src="https://kit.fontawesome.com/8620d989f5.js"></script>
 </head>
+
 <body>
-	<div class="nav">
-		<p>Already have an intuit account?</p>
-		<p>
-			<a href="#">I forgot my user ID or password</a>
-		</p>
-		<button>
-			<i class="fa fa-lock"></i>Sign In
-		</button>
+	<div class="sidenav">
+		<p>Already have an Intuit account?</p>
+		<p><a href="#">I forgot my User ID or Password</a></p>
+		<button><i class="fa fa-lock"></i>Sign in</button>
 	</div>
-	<div class="list">
+	<div class="title">
+		<div class="logo"></div>
 		<ul>
-			<li>Turbotax</li>
-			<li>Quickbooks</li>
-			<li>Mint</li>
+			<li>mint</li>
+			<li>quickbooks</li>
+			<li>turbotax</li>
 		</ul>
 	</div>
-	<form>
-		<fieldset>
-			<h2>Create an intuit account</h2>
-			<p>One account for everythinng intuit<br></p>
-			<p>Already have an acount?</p>
-			<p>
-				<a href="#">Learn more</a>
-			</p>
-			<p class="label">Email address</p>
-			<input type="email" name="email" placeholder="You'll verify this later">
-			<p class="label">Phone(recommended)</p>
-			<input type="number" name="phone" placeholder="Helps with lost passwords and security">
-			<br><br>
-			<p class="label">Password</p>
-			<input type="text" id="password"placeholder="Don't reuse an old password">
-			<br>
-			<button><i class="fa fa-lock"></i>Create account</button>
-			<p>
-				<i>By clicking create account you have agreed our 
-					<a href="3">Terms</a>
-					and have read and aknowledge our
-					<a href="#">Privacy Statement</a>
-				</i>
-			</p>
-			<p class="reCAPTCHA">
-				Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-			</p>
-		</fieldset>
+	<form action="#">
+		<h2>Create an Intuit account</h2>
+		<p>One account for everything Intuit, including Mint.</p>
+		<p><a href="#">learn more</a></p>
+
+		<label for="email">
+			Email Address:<br>
+			<input type="email" name="email">
+		</label>
+
+		<label for="number">
+			Phone (recommended):<br>
+			<input type="number" name="number">
+			<p>Standard call, messaging or data rates may apply.</p>
+		</label>
+
+		<label for="password">
+			Password:<br>
+			<input type="password" name="password">
+		</label>
+
+		<button><i class="fa fa-lock"></i>Create Account</button>
+
+		<div class="agreement">
+			<p>By clicking Create account, you agree to our<br>
+				<a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy</a> <br>
+				Statement.</p>
+		</div>
+
+		<div class="captcha">
+			<p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+		</div>
 	</form>
+
+	<footer>
+		<ul>
+			<li><a href="#">Legal</li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Security</a></li>
+		</ul>
+		<p>&copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+			registered
+			trademarks of Intuit Inc.<br>
+			Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+	</footer>
 </body>
+
 </html>
