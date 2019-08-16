@@ -50,6 +50,10 @@ form p {
   box-sizing: border-box;
 }
 
+footer a {
+  margin-left: 10px;
+}
+
 .sidenav a {
   margin-top: -10px;
 }
@@ -213,4 +217,3 @@ footer ul li {
   display: inline-block;
 }
 
-footer a { margin-left: 10px; }
