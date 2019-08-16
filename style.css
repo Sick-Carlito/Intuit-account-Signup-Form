@@ -36,6 +36,13 @@ ul {
   margin-top: -50px;
 }
 
+form p {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .sidenav p {
   margin-right: 120px;
   margin-bottom: 10px;
@@ -128,13 +135,6 @@ form h2 {
   font-size: 24px;
 }
 
-form p {
-  color: #4c4c4c;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
 form p a {
   margin-top: -10px;
 }
@@ -213,6 +213,4 @@ footer ul li {
   display: inline-block;
 }
 
-footer a {
-  margin-left: 10px;
-}
+footer a { margin-left: 10px; }
